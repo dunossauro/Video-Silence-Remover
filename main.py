@@ -2,15 +2,15 @@
 import logging
 import os
 import os.path
-
-from colorama import Fore, Style
-from tqdm import tqdm
 from argparse import ArgumentParser
 
-from pydub.utils import *
-from pydub import AudioSegment
-from moviepy.editor import *
+from colorama import Fore, Style
 from moviepy import config_defaults
+from moviepy.editor import *
+from pydub import AudioSegment
+from pydub.utils import *
+from tqdm import tqdm
+
 from load_im import get_image_magick_executable
 
 # define o caminho do imagemagick em runtime antes de importar o moviepy

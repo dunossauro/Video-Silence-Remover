@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 import os
+import platform
 import sys
 import time
-import platform
 from configparser import ConfigParser
-from tkinter import filedialog, Tk
+from tkinter import Tk, filedialog
 
 CONFIG_FILE_NAME = 'settings.ini'
 CONFIG_IMAGEMAGICK_FILE = 'imagemagick_file_name'
