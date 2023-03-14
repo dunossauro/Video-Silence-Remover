@@ -3,6 +3,7 @@ vtest/
 virtual/
 *.py[cod]
 *$py.class
+.venv/
 
 *.mp4
 *.sfk
