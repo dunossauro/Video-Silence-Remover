@@ -6,9 +6,14 @@ from argparse import ArgumentParser
 
 from colorama import Fore, Style
 from moviepy import config_defaults
-from moviepy.editor import *
+from moviepy.editor import (
+    CompositeVideoClip,
+    TextClip,
+    VideoFileClip,
+    concatenate_videoclips,
+)
 from pydub import AudioSegment
-from pydub.utils import *
+from pydub.utils import make_chunks
 from tqdm import tqdm
 
 from load_im import get_image_magick_executable
